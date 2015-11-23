@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<stdlib.h>
+main(){
+     
+    float HOURS,AMOUNT,SALARY;
+    int COD; 
+     
+    SALARY=0;
+    AMOUNT=0;
+    HOURS=0;
+     
+    scanf("%d",&COD);
+    scanf("%f",&AMOUNT);
+    scanf("%f",&HOURS);
+         
+    SALARY = (AMOUNT*HOURS);
+     
+    printf("NUMBER = %d\n",COD); 
+    printf("SALARY = U$ %.2f\n",SALARY);
+    return 0;   
+}
